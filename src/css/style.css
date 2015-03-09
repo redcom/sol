@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 1% 5%;
+    height: 100%;
+    color: black;
+}
+header {
+    height: 8em;
+    width: 100%;
+}
+header a {
+    display: inline-block;
+    height: 100%;
+}
+img {
+    width: 100%;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+.price {
+    color: #e97527;
+}
+ul.details,
+ul.thumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.details li {
+    padding: 0.5em 0.5em;
+}
+ul.details li div {
+    display: inline-block;
+}
+ul.details li div:first-child {
+    width: 30%;
+    font-weight: bolder;
+}
+ul.thumbs {
+    padding:5% 0;
+}
+ul.thumbs li {
+    display: inline-block;
+    padding-right: 1%;
+    box-sizing: border-box;
+    width: 24%;
+}
+ul.thumbs li:last-child {
+    /*padding-right: 0;*/
+}
